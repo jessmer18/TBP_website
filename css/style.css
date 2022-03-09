@@ -162,43 +162,35 @@ yellow: #F8CF20
 /* NAVBAR SECTION */
 .navbar {
     background-color: #F8CF20;
-    padding: .2rem 0 .2rem 0;
+    padding: .2rem .5rem .2rem .5rem;
     position: relative;
     z-index: 0;
+    justify-content: space-between;
+}
+
+.navbar-toggler  {
+    text-align: end;
 }
 
 .navbar .home a {
     color: black;
     font-weight: 600;
     line-height: 1.2;
-    font-size: 1.4vw;
+    font-size: 1.2rem;
 }
 
-/* .navbar .login a {
-    float: right;
-} */
-
-.navbar a {
+.navbar-light .navbar-nav .nav-link {
     color: black;
-    font-weight: 300;
     line-height: 1.2;
-    font-size: 1.4vw;
 }
 
-.navbar .home a:hover {
-    font-weight: 800;
-}
-
-.navbar a:hover {
-    font-weight: 500;
+.navbar-light .navbar-nav .nav-link:hover {
+    font-weight: 700;
+    color: black;
 }
 
 .navbar .active {
-    font-weight: 500;
-}
-
-.navbar .home .active {
-    font-weight: 800;
+    font-weight: 700;
 }
 
 /* WHAT IS TBP */
