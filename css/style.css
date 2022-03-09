@@ -156,10 +156,8 @@ yellow: #F8CF20
     color: #ffffff;
     font-size: 2.5rem;
     font-weight: 500;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    margin:auto;
+    position: inherit;
 }
 
 /* NAVBAR SECTION */
