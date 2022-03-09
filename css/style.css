@@ -114,6 +114,7 @@ a:hover {
     background-color: transparent;
     border: 2px #ffffff solid;
     transition: all 0.5s;
+    margin: auto;
 }
 
 .btn-outline-primary:hover {
