@@ -335,12 +335,12 @@ yellow: #F8CF20
     padding: 1rem 1rem 1rem 1rem;
     margin-bottom: 2rem;
     border-radius: 6px;
-    outline: 2px solid black;
+    outline: 2px solid #C0C0C0;
 }
 
 .whyjoinbox:hover {
-    -webkit-box-shadow: 0 0 8px 7px #000000;
-    box-shadow: 0 0 8px 7px #000000;
+    -webkit-box-shadow: 0 0 8px 7px #C0C0C0;
+    box-shadow: 0 0 8px 7px #C0C0C0;
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     transition: all 0.4s;
