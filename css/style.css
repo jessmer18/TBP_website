@@ -1,0 +1,377 @@
+html {
+    font-size: 1rem;
+}
+
+body {
+    background-color: white;
+    /*    body font*/
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: #474747;
+}
+
+p {
+    margin-bottom: 1.3rem;
+    line-height: 1.75rem;
+}
+
+/*this is a group selection, selecting all the headlines h1-h4*/
+h1,
+h2,
+h3,
+h4 {
+    /*    headline font*/
+    font-weight: 200;
+    line-height: 1.2;
+}
+
+h1 {
+    /*  top:0 right:0  bottom:0.5rem left:0*/
+    margin: 0 0 0.5rem 0;
+    font-size: 3.157vw;
+}
+
+h2 {
+    /*  top:1.414rem right:0  bottom:0.5rem left:0*/
+    margin: 1.414rem 0 0.5rem 0;
+    font-size: 2.369vw;
+}
+
+h3 {
+    /*  top:1.414rem right:0  bottom:0.5rem left:0*/
+    margin: 1.414em 0 0.5rem 0;
+    font-size: 1.777vw;
+    font-weight: 300;
+}
+
+h4 {
+    /*  top:1.414rem right:0  bottom:0.5rem left:0*/
+    margin: 1.414em 0 0.5rem 0;
+    font-size: 1.333vw;
+}
+
+.col-sm-1-2 {
+    width: 12%;
+}
+.col-sm-1-3 {
+    width: 13%;
+}
+.col-sm-1-8 {
+    width: 18%;
+}
+.col-sm-4-0 {
+    width: 40%;
+}
+
+
+/* link */
+/* a {
+    color: #28503c;
+    ;
+}
+
+a:hover {
+    color: #B2B1AE;
+    text-decoration: none;
+} */
+
+/* solid button */
+.btn-primary {
+    font-size: 1.2vw;
+    letter-spacing: .05rem;
+    font-weight: 700;
+    line-height: 2rem;
+    border-radius: 1rem;
+    border: 2px #28503c solid;
+    padding: .5rem 1.5rem;
+    background-color: #28503c;
+    color: white;
+}
+
+.btn-primary:hover {
+    font-size: 1.2vw;
+    letter-spacing: .05rem;
+    font-weight: 700;
+    line-height: 2rem;
+    border-radius: 1rem;
+    border: 2px #28503c solid;
+    padding: .5rem 1.5rem;
+    background-color: white;
+    color: #28503c;
+    opacity: .8;
+    transition: all 0.5s;
+}
+
+/* outline button */
+.btn-outline-primary {
+    font-size: 1.2vw;
+    letter-spacing: .05rem;
+    font-weight: 700;
+    line-height: 2rem;
+    border-radius: 2rem;
+    padding: .5rem 1.5rem;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px #ffffff solid;
+    transition: all 0.5s;
+}
+
+.btn-outline-primary:hover {
+    color: #173F74;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+/* 
+
+dark blue: #07254B
+lighter blue: #173F74
+yellow: #F8CF20
+
+*/
+
+/* HEADER SECTION */
+.header {
+    background-color: #07254B;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    position: relative;
+}
+
+.header img {
+    max-width: 5.5rem;
+    padding-right: 2rem;
+}
+
+.header h1{
+    color:#ffffff;
+    font-size: 2.5rem;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* NAVBAR SECTION */
+.navbar {
+    background-color: #F8CF20;
+    padding: .2rem 0 .2rem 0;
+}
+
+.navbar .home a {
+    color: black;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 1.4vw;
+}
+
+/* .navbar .login a {
+    float: right;
+} */
+
+.navbar a {
+    color: black;
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: 1.4vw;
+}
+
+.navbar .home a:hover {
+    font-weight: 800;
+}
+
+.navbar a:hover {
+    font-weight: 500;
+}
+
+.navbar .active {
+    font-weight: 500;
+}
+
+.navbar .home .active {
+    font-weight: 800;
+}
+
+/* WHAT IS TBP */
+.bluebackground {
+    background-color: #173F74;
+}
+
+.whatistbp {
+    padding: 0 0 0 0;
+}
+
+.whatistbp .halfimg {
+    background: #07254B url("../img/carousel1.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.text {
+    /*  top:0 right:0  bottom:0.5rem left:0*/
+    padding-bottom: 1rem;
+    margin: auto 0 auto 5%;
+    color: white;
+}
+
+.text h1 {
+    /*  top:0 right:0  bottom:0.5rem left:0*/
+    margin: 1.414rem 0 .5rem 0;
+    padding-bottom: 2rem;
+
+}
+
+.text p {
+    line-height: 2;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+
+/* OUTREACH */
+.whitebackground {
+    background-color: #ffffff;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.outreach {
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.outreachimg {
+    overflow: hidden;
+}
+
+.outreach img:hover {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -moz-transform: scale(1.2);
+    /* Firefox */
+    -webkit-transform: scale(1.2);
+    /* Safari and Chrome */
+    -o-transform: scale(1.2);
+    /* Opera */
+}
+
+.outreach img {
+    display: block;
+    position: relative;
+    max-height: 70%;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}
+
+.outreach h3 {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 2vw;
+}
+
+.outreach p {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 1vw;
+    text-align: left;
+}
+
+.outreach .btn-outline-primary {
+    font-size: 1.5vw;
+    letter-spacing: .05rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+/* SOCIAL EVENTS */
+.bluebackground {
+    background-color: #173F74;
+}
+
+.social {
+    padding: 0 0 0 0;
+}
+
+.social .halfimg {
+    background: #07254B url("../img/social.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+
+/* JOIN TBP */
+.bluebackground {
+    background-color: #173F74;
+}
+
+.join {
+    padding: 0 0 0 0;
+}
+
+.join .halfimg {
+    background: #07254B url("../img/join.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.join .text {
+    /*  top:0 right:0  bottom:0.5rem left:0*/
+    margin: 0 0 0 3rem;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    margin: auto;
+}
+
+/* WHY JOIN */
+
+.whyjoin {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.whyjoinbox {
+    cursor: pointer;
+    position: relative;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    outline: 2px solid black;
+}
+
+.whyjoinbox:hover {
+    -webkit-box-shadow: 0 0 8px 7px #000000;
+    box-shadow: 0 0 8px 7px #000000;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.whyjoinbox .hyperspan{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.whyjoin svg {
+    max-width: 4rem;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.whyjoin h3 {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 2vw;
+}
+
+.whyjoin p {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 1vw;
+    text-align: left;
+}
