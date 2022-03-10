@@ -220,7 +220,7 @@ yellow: #F8CF20
     width: 100%;
 }
 
-/* if mobile device max width 480px */
+/* if mobile device max width 768px */
 @media (max-width:768px) {
     .mobile_device_600px {
         display: block;
@@ -228,8 +228,11 @@ yellow: #F8CF20
     .header h1 {
         font-size: 1.7rem;
     }
+}
+
+@media (max-width:480px) {
     .footer .umich{
-        display: none;
+        visibility: hidden;
     }
 }
 
