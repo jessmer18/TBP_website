@@ -228,6 +228,9 @@ yellow: #F8CF20
     .header h1 {
         font-size: 1.7rem;
     }
+    .footer .umich{
+        display: none;
+    }
 }
 
 .text {
