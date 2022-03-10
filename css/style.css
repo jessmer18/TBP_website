@@ -148,6 +148,8 @@ yellow: #F8CF20
 
 .header .row {
     width: fit-content;
+    cursor: pointer;
+    position: relative;
 }
 
 .header img {
@@ -229,12 +231,15 @@ yellow: #F8CF20
     }
 }
 
+@media (max-width:576px) {
+    .header h1 {
+        font-size: 1.3rem;
+    }
+}
+
 @media (max-width:480px) {
     .footer .umich{
         visibility: hidden;
-    }
-    .header h1 {
-        font-size: 1.3rem;
     }
 }
 
@@ -265,6 +270,7 @@ yellow: #F8CF20
     padding-top: 3%;
     padding-left: 5%;
     padding-right: 5%;
+    margin-right: 12px;
 }
 
 .outreach {
