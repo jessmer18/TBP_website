@@ -350,7 +350,7 @@ yellow: #F8CF20
     cursor: pointer;
     position: relative;
     padding: 1rem 1rem 1rem 1rem;
-    margin-bottom: 2rem;
+    margin: 0 1rem 2rem 1rem;
     border-radius: 6px;
     outline: 2px solid #C0C0C0;
 }
