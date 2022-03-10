@@ -210,6 +210,8 @@ yellow: #F8CF20
     background: #07254B url("../img/carousel1.jpg") center center no-repeat;
     background-size: cover;
     min-width: 50%;
+    margin-right: 12px;
+    padding: 0;
 }
 
 .mobile_device_600px {
@@ -226,7 +228,7 @@ yellow: #F8CF20
         display: block;
     }
     .header h1 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -341,6 +343,8 @@ yellow: #F8CF20
 .join .halfimg {
     background: #07254B url("../img/join.jpg") center center no-repeat;
     background-size: cover;
+    margin-right: 12px;
+    padding: 0;
 }
 
 .join .text {
