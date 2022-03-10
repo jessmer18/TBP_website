@@ -230,7 +230,7 @@ yellow: #F8CF20
     }
 }
 
-@media (max-width:480px) {
+@media (max-width:390px) {
     .footer .umich{
         visibility: hidden;
     }
