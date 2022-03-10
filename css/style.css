@@ -226,7 +226,7 @@ yellow: #F8CF20
         display: block;
     }
     .header h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 }
 
@@ -410,29 +410,38 @@ yellow: #F8CF20
     position: relative;
 }
 
+.footer .row {
+    width: fit-content;
+}
+
 .footer p {
     color: white;
     font-size: .7rem;
     line-height: 1rem;
+    width: fit-content;
 }
 
-.footer img {
-    max-width: 8rem;
-    padding-right: 2rem;
+.footer .bent {
+    width: 6rem;
+    height: 6rem;
+    padding: 0;
+    margin: 0  2rem 1rem 0;
 }
 
-.socials svg {
-    max-width: 4rem;
-    padding-left: 2rem;
-    width: 100%;
+.footer .umich{
+    height: 6rem;
+    width: auto;
+    float: right;
+}
+
+.footer svg {
+    width: 4rem;
+    margin-left: 2rem;
     height: auto;
     margin: auto;
     color: white;
 }
 
-.socials {
-    margin: auto;
-}
 
 .footer h1 {
     color: #ffffff;
