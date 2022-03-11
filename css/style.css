@@ -385,7 +385,7 @@ yellow: #F8CF20
     transition: all 0.4s;
 }
 
-.whyjoinbox .hyperspan {
+.hyperspan {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -467,4 +467,51 @@ yellow: #F8CF20
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+/* TUTORING PAGE */
+
+.tutoring1, .tutoring2, .tutoring3, .tutoring4  {
+    padding: 0 0 0 0;
+}
+
+.tutoring1 p{
+    padding: 0 0 0 2rem;
+    margin-bottom: .5rem;
+}
+
+.tutoring1 .tutorlist {
+    font-size: .6rem;
+    margin-left: 1rem;
+}
+
+.tutoring1 .halfimg {
+    background: #07254B url("../img/placeholder7x6.png") center center no-repeat;
+    background-size: cover;
+    margin-right: 12px;
+    padding: 0;
+}
+
+.tutoring2 .halfimg {
+    background: #07254B url("../img/placeholder7x6.png") center center no-repeat;
+    background-size: cover;
+}
+
+.tutoring3 .halfimg {
+    background: #07254B url("../img/placeholder7x6.png") center center no-repeat;
+    background-size: cover;
+    margin-right: 12px;
+    padding: 0;
+}
+
+.tutoring4 .halfimg {
+    background: #07254B url("../img/placeholder7x6.png") center center no-repeat;
+    background-size: cover;
+}
+
+.tutoring5 .halfimg {
+    background: #07254B url("../img/placeholder7x6.png") center center no-repeat;
+    background-size: cover;
+    margin-right: 12px;
+    padding: 0;
 }
